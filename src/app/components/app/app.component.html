@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<header>
+  <div>
+    <button routerLink="/">home</button>
+  </div>
+  <div>
+    <button routerLink="users">users</button>
+  </div>
+  <div>
+    <button [routerLink]="['posts']">posts</button>
+  </div>
+</header>
+
+<div>
+  <router-outlet></router-outlet>
+</div>

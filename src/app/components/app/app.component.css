@@ -1,0 +1,11 @@
+h1 {
+  background: silver;
+}
+
+header {
+  background: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30px;
+}

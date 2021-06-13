@@ -1,0 +1,5 @@
+<div>
+  <button (click)="goToDetails()">details</button>
+  <button [routerLink]="['posts',user.id]">posts</button>
+  {{user.id}} - {{user.name}}
+</div>

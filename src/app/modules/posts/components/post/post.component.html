@@ -1,0 +1,5 @@
+<div>
+  <button (click)="goToDetails()">details</button>
+  <button [routerLink]="['comments',post.id]">comments</button>
+  {{post.id}} - {{post.title}}
+</div>
